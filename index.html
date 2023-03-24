@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            font-family: "Poppins", sans-serif;
+            color: #374151 !important;
+        }
+        body {
+            background-image :url(bg-hero.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+        .dropdown-menu {
+            background-color: #374151 !important;
+        }
+        .dropdown-item {
+            color : #9ca3af !important;
+        }
+        .no {
+            background-color: #187CFF;
+            border-radius: 100%;
+            width: 6.5%;
+            height: 5%;
+            padding: 5px;
+            text-align: center;
+            color: white !important;
+        }
+        .dot2 {
+            position: absolute;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 6px 1px rgb(208, 208, 208);
+            padding: 17px;
+            width: 71%;
+            top: 68%;
+            font-weight: 600;
+            font-size: medium;
+        }
+        .btn {
+            width: 31vh;
+        }
+        .btn-primary {
+            background-color: #187CFF !important;
+            color: white !important;
+        }
+        .dot {
+            position: absolute;
+            background-color: red;
+            color: white !important;
+            padding: 4px 13px;
+            border-radius: 50px;
+            font-size: 10px;
+            bottom: 24px;
+            left: 157px;
+        }
+        .btn-warning {
+            background-color: #FFD200 !important ;
+            margin-left: 5vh;
+        }
+        .text {
+            top: 44%;
+            left: 14%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container nav mt-4">
+        <img src="logoedu.png" class="navbar-brand" alt="eduwork" style="width: 15%;">
+        <ul class="nav justify-content-center me-auto ms-auto" style="font-weight: 600; font-size: 14px;">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Kelas
+            </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Private Mentoring</a></li>
+                    <li><a class="dropdown-item" href="#">Bootcamp</a></li>
+                    <li><a class="dropdown-item" href="#">Webinar</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hubungi Admin</a>
+            </li>
+        </ul>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Member
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Account</a></li>
+                <li><a class="dropdown-item" href="#">My Class</a></li>
+                <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>
+        </li>
+    </div>
+    <div class="row ms-lg-5 mt-lg-5">
+        <div class="col ms-lg-5 mt-3">
+            <h1 style="color: #404040 !important; font-weight: 800;">Pelatihan & <br>Penyaluran Kerja.</h1>
+            <div class="container-md mt-4 p-0">        
+                <div class="container-sm">
+                    <div class="no-bar position-relative">
+                        <div class="no">1</div>                      
+                        <div class="no mt-5 mb-5">2</div>                    
+                        <div class="no mb-4 ">3</div>
+                    </div>
+                    <div class="text position-absolute">
+                        <h5>Daftar, Get Free Class!</h5>
+                        <p>Join komunitas belajar, dapatkan akses kelas & materi gratis</p>
+                        <h5>Belajar Intensif</h5>
+                        <p>Belajar didampingi virtual assistant & mentor expert via <br> grup & 1-on-1 zoom mentoring</p>
+                        <h5>Penyaluran Kerja Dijamin</h5>
+                        <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-primary mt-4 mb-4 position-relative">Daftar Gratis <div class="dot">
+                    Free
+                  </div></a>
+                <a href="#" class="btn btn-warning mt-4 mb-4">Konsultasi Dulu</a>
+                <p><strong>54,088</strong> Students & <strong>131</strong> Mentors has joined!</p>
+            </div>
+        </div>
+        <div class="col ms-sm-5 mt-lg-5 position-relative">
+            <img src="t-aniq.png" class="align-content-lg-center position-absolute" alt="...">
+            <div class="dot2">"Sebelumnya saya tidak punya background IT karena jurusan Kimia, setelah saya belajar coding di Eduwork, Saya berhasil diterima kerja di Tokopedia sebagai Programer."</div>
+        </div>
+    </div>
+</body>
+
+</html>
